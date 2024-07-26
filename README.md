@@ -2,7 +2,7 @@
 The official belt grading for bash, to determine your belt 
 ———
 
-Certainly! Here are daily practice exercises for each belt level, combining all the mentioned concepts into one fluid task.
+Here are daily practice exercises for each belt level, combining one fluid task.
 
 ### White Belt (Beginner)
 #### Exercise: File Management and Navigation
@@ -16,28 +16,37 @@ Certainly! Here are daily practice exercises for each belt level, combining all 
     ```bash
     touch file1.txt file2.txt file3.txt
     ```
-4. List all files in the directory.
+4. Reaname file1.txt to file10.txt. 
+```bash
+ mv file1.txt  file10.txt
+  ```
+5. Change the permissions of the file10.txt to readonly for all 
+```bash 
+chmod 444 file10.txt 
+ ```
+   
+6. List all files in the directory.
     ```bash
     ls
     ```
-5. View the contents of `file1.txt` (it will be empty).
+7. View the contents of `file1.txt` (it will be empty).
     ```bash
     cat file1.txt
     ```
-6. Move `file1.txt` to a new directory called `Archive`.
+8. Move `file1.txt` to a new directory called `Archive`.
     ```bash
     mkdir Archive
     mv file1.txt Archive/
     ```
-7. Copy `file2.txt` to the `Archive` directory.
+9. Copy `file2.txt` to the `Archive` directory.
     ```bash
     cp file2.txt Archive/
     ```
-8. Delete `file3.txt`.
+10. Delete `file3.txt`.
     ```bash
     rm file3.txt
     ```
-9. List the contents of the `Archive` directory to confirm the files are there.
+11. List the contents of the `Archive` directory to confirm the files are there.
     ```bash
     ls Archive/
     ```
